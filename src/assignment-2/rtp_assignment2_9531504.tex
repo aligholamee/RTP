@@ -106,143 +106,71 @@ Firstly, we'll review the different methods of research in science \& engineerin
 	\item{\textbf{Incremental Research}} -- Incremental research looks for the usage of above techniques to implement them as a real-life product. The focus is to make use of the two mentioned techniques in the industries.
 \end{itemize}
 
-Some of the best examples of each of these research techniques are provided in the table 1.1. These examples are the results of my investigation through the \textit{Google Scholar} and other references that are available in the final column.
+Some of the best examples of each of these research techniques are provided below. In my opinion, some of the best examples of theoretical research can be found on \textit{Google Scholar} papers. For the practical examples, I've used the \textit{Standford Machine Learning Projects Website} which I think is the best on its own. Finally, the examples of the incremental research is given from the \textit{Google Brain} \& \textit{OpenAI} projects.
 
-\begin{table} \centering
-	\begin{tabular}{rcccc}
-		\hline
-		$ Type \ of \ Research $ &
-		$ Example $ & $ Reference $ \\
-		\hline
-		Theoretical & Request for authorization & ATM \\
-		Theoretical & Repeat authorization request & ATM\\
-		Theoretical & Respond to authorization request & Central Computer\\
-		Theoretical & Request for fund & ATM \\
-		Practical & Repeat fund request & ATM \\
-		Practical & Respond to financial request & Central Computer \\
-		Practical & Request for account report & ATM \\
-		Practical & Respond to account report & Central Computer \\
-		Incremental & Reverse a card-to-card transaction & ATM \\
-		Incremental & Rollback a card-to-card transaction & ATM \\
-		Incremental & Request for public announcement due date & ATM \\
-		Incremental & Respond to the public announcement & Central Computer \\
-				
-		\hline
-	\end{tabular}
-	\caption{Demonstration of proposed examples of different research types.}
-	\label{tabconvdemo}
-\end{table}
-
-\begin{enumerate}
-	\item{Authorization Message}
-		\begin{itemize}
-			\item{Authorize the card pass phrase}
-			\item{Determine if funds are available}
-			\item{Determine if the destination card exists in a card-to-card transaction}
-		\end{itemize}
-		
-	\item{Financial Message}
-		\begin{itemize}
-			\item{Post funds to the accounts in card-to-card transactions}
-			\item{Post funds to the accounts in \textit{POS} transactions}
-			\item{Fund posting approvals}
-		\end{itemize}
-	
-	\item{Reversal \& Rollback Message}
-		\begin{itemize}
-			\item{Reverse the previous authorization action}
-			\item{Rollback the previous financial message}
-		\end{itemize}
-		
-	\item{Administrative Message}
-		\begin{itemize}
-			\item{Transmit the administrative messages and advices}
-			\item{Public announcements on the \textit{ATM}}
-		\end{itemize}
-		
-	\item{Network Management Message}
-		\begin{itemize}
-			\item{Secure key exchange}
-		\end{itemize}
-	
-\end{enumerate}
-
-
-
-A complete example of a fund request is described in the figure 1.2. \textbf{Firstly}, the \textit{ATM} sends an authorization request to the central computer. \textbf{Secondly}, The central computer responds to the incoming request. \textbf{Thirdly}, in case the authorization is successful, a fund request is sent to the central computer. \textbf{Fourthly}, the fund request is validated and the reponse is sent to the \textit{ATM}. In the situation, the user might ask for a reversal. If that happens, the reversal requests/responses are transferred.
-
-\begin{figure}[!h]
-	\centering
-		\begin{tikzpicture}[scale=1]
-		\tikzstyle{ann} = [draw=none,fill=none,right]
-		\matrix[nodes={draw, ultra thick, fill=blue!10},
-		row sep=1.5cm,column sep=2cm] {
-			\node[rectangle] (a1) {ATM - Request for authentication}; &
-			\node[rectangle] (c1) {Computer - Authentication reponse};\\
-			\node[rectangle] (a2) {ATM - Request for fund}; &
-			\node[rectangle] (c2) {Computer - Fund reponse};\\
-			\node[rectangle] (a3) {ATM - Request for account report}; &
-			\node[rectangle] (c3) {Computer - Account report reponse};\\
-		};
-		
-			\draw [->] [line width=2pt, -stealth](a1) to [bend left=15] node{} (c1);
-			\draw [->] [line width=2pt, -stealth](c1) to [bend left=15] node{} (a1);
+\begin{itemize}
+	\item{\textbf{Theoretical Research Examples}}
+		\begin{enumerate}
+			\item{\textit{\textbf{Euclidean Jordan Algebra}}}
+			\begin{itemize}
+					\item{The Cauchy interlacing theorem in simple Euclidean Jordan algebras and some consequences.}
+					\href{http://www.math.umbc.edu/~gowda/tech-reports/trGOW08-02.pdf}{\textbf{[pdf]}}
+			\end{itemize}
 			
-			\draw [->] [line width=2pt, -stealth](a2) to [bend left=15] node{} (c2);
-			\draw [->] [line width=2pt, -stealth](c2) to [bend left=15] node{} (a2);
+			\item{\textit{\textbf{Linear Matrix Equations}}}
+			\begin{itemize}
+				\item{Guaranteed Minimum-Rank Solutions of Linear Matrix Equations via Nuclear Norm Minimization.}
+				\href{https://arxiv.org/pdf/0706.4138.pdf}{\textbf{[pdf]}}
+						\end{itemize}
+			\item{\textit{\textbf{Convex Optimization}}}
+			\begin{itemize}
+				\item{Distributed average consensus with least-mean-square deviation.}
+				\href{https://www.sciencedirect.com/science/article/pii/S0743731506001808}{\textbf{[pdf]}}
+			\end{itemize}
+		\end{enumerate}
 
-			\draw [->] [line width=2pt, -stealth](a3) to [bend left=15] node{} (c3);
-			\draw [->] [line width=2pt, -stealth](c3) to [bend left=15] node{} (a3);
+	\item{\textbf{Practical Research Examples}}
+		\begin{enumerate}
+			\item{\textit{\textbf{Computer Vision \& Machine Perception}}}
+			\begin{itemize}
+				\item{Linear Pose Estimation from Points or Lines.}
+				\href{https://repository.upenn.edu/cgi/viewcontent.cgi?article=1018&context=cis_papers}{\textbf{[pdf]}}
+			\end{itemize}
+			
+			\item{\textit{\textbf{Automatic Speech Recognition}}}
+			\begin{itemize}
+				\item{Context-Dependent Pre-Trained Deep Neural
+					Networks for Large-Vocabulary Speech Recognition.}
+				\href{https://s3.amazonaws.com/academia.edu.documents/34691735/dbn4lvcsr-transaslp.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1518784696&Signature=nX6mYsYa6RxXSkPq1y8x3VnL0po\%3D&response-content-disposition=inline\%3B\%20filename\%3DContext-Dependent_Pre-Trained_Deep_Neura.pdf}{\textbf{[pdf]}}
+			\end{itemize}
+			\item{\textit{\textbf{Computational Linguistics}}}
+			\begin{itemize}
+				\item{Incorporating Non-local Information into Information Extraction Systems by Gibbs Sampling.}
+				\href{http://www.aclweb.org/anthology/P05-1045}{\textbf{[pdf]}}
+			\end{itemize}
+		\end{enumerate}
+	
+	\item{\textbf{Incremental Research Examples}}
+		\begin{enumerate}
+			\item{\textit{\textbf{Neural Machine Translation}}}
+			\begin{itemize}
+				\item{An Speech Recognition System for the Android Operating System.}
+				\href{https://en.wikipedia.org/wiki/Google_Assistant}{\textbf{[product]}}
+			\end{itemize}
+			
+			\item{\textit{\textbf{Video Recommendation}}}
+			\begin{itemize}
+				\item{Deep Neural Networks for YouTube Recommendations.}
+				\href{https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45530.pdf}{\textbf{[product]}}
+			\end{itemize}
+			\item{\textit{\textbf{Reinforcement Learning Application}}}
+			\begin{itemize}
+				\item{\textit{OpenAI Gym} -- A toolkit for developing and comparing reinforcement learning algorithms.}
+				\href{https://github.com/openai/gym}{\textbf{[product]}}
+			\end{itemize}
+		\end{enumerate}
+	
+\end{itemize}
 
-		\end{tikzpicture}
-		
-		\caption{A complete fund request flow diagram.}
-		\label{tabconvdemo}
-\end{figure}
-
-Please refer to the beginning of this solution for the assumptions about the \textit{transport} layer.
-
-\titleformat{\section}
-{\normalfont\Large\bfseries}   % The style of the section title
-{}                             % a prefix
-{0pt}                          % How much space exists between the prefix and the title
-{Section \thesection:\quad}    % How the section is represented
-
-\subsection{2. HFC \& Collision in Downstream}
-Given an \textit{HFC} communication medium, find out whether the transmission rate is \textit{dedicated} to one user or it is shared among users in the network. Is it possible for a downstream in an \textit{HFC} channel to have collision? Describe your answer.
-
-\subsection{Solution}
-
-As the description for the \textit{HFC(Hybrid fiber-coaxial)} medium specifies, the combination of both \textit{optical fiber} and \textit{coaxial cable} is used in a broadband network. As an example for the functionality of this medium, the television channels are sent from the cable system's distribution facility, the \textit{\textbf{headend}}, to local communities through optical fiber subscriber lines. At the local community, a box called an \textit{optical node} translates the signal from a light beam to electrical signal, and sends it over coaxial cable lines for distribution to subscriber residences.\\
-\subparagraph{HFC Transmission Rate }HFC bandwidth is shared among users. So, each user on a tail-end of the coaxial cable can use the same transmission rate as others.\\
-\subparagraph{Collision in Downstream}
-
-The downstream channel, provides the data from a single source called head-end. Then the data is distributed among the residences. Thus, there are no collisions in the downstream channel.
-\\
-
-
-\subsection{3. Dial-up, ADSL, FTTH, HFC Modems}
-The modems titled here are widely used as a home-access to the Internet. Provide an example of \textit{maximum transmission rate}. Describe whether these rates are shared or not.
-
-\subsection{Solution}
-
-Table 1.2 provides various \textit{transmission rates(Bitrate)} for each of these modems.
-
-\begin{table}[!h]
-	\centering
-	\begin{tabular}{rcccc}
-		\hline
-		$ Modem $ &
-		$ Bitrate $ & $ Usage $ \\
-		\hline
-		Dial-up & 33.6(kbit/s) -- 48(kbit/s) -- 56(kbit/s) & Unshared \\
-		ADSL & 8.0(Mbit/s) -- 12.0(Mbit/s) -- 24(Mbit/s) & Unshared -- Shared\\
-		HFC &  100(Mbit/s) & Shared\\
-		FTTH & 1(Gbit/s)(Google Fiber) & Unshared(one single home)\\
-		\hline
-	\end{tabular}
-	\caption{Bitrate samples for different types of modems.}
-	\label{tabconvdemo}
-\end{table}
 
 \end{document}
