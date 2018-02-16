@@ -54,7 +54,9 @@
 \newcommand{\nn}{\mathbf{n}}
 \newcommand{\xx}{\mathbf{x}}
 \newcommand{\uu}{\mathbf{u}}
+\usepackage[utf8]{inputenc}
 \usepackage{tikz}
+\usetikzlibrary{mindmap,shadows}
 \usetikzlibrary{arrows}
 \usetikzlibrary{positioning}
 \usepackage{titlesec}
@@ -69,6 +71,16 @@ anchorcolor = darkblue]{hyperref}
 % set two lengths for the includegraphics commands used to import the plots:
 \newlength{\fwtwo} \setlength{\fwtwo}{0.45\textwidth}
 % end of personal macros
+\newcommand*{\info}[4][16.3]{%
+	\node [ annotation, #3, scale=0.65, text width = #1em,
+	inner sep = 2mm ] at (#2) {%
+		\list{$\bullet$}{\topsep=0pt\itemsep=0pt\parsep=0pt
+			\parskip=0pt\labelwidth=8pt\leftmargin=8pt
+			\itemindent=0pt\labelsep=2pt}%
+		#4
+		\endlist
+	};
+}
 
 \begin{document}
 \DeclareGraphicsExtensions{.jpg}
@@ -172,5 +184,59 @@ Some of the best examples of each of these research techniques are provided belo
 	
 \end{itemize}
 
+\newpage
+\subsection{2. A Mind-map of Computer Vision}
+Provide a mind-map for your desired subject. Make sure to bring details about the subject you choose.
+
+\subsection{Solution}
+I'll try to provide as much as details for the \textit{Computer Vision} subject. I've chosen the \textit{Computer Vision} for two main reasons:
+
+\begin{itemize}
+	\item Computer Vision is the subject that makes me feel fresh every single day.
+	\item Most of my time is spent of Machine Learning \& Pattern Recognition concepts. These studies are inclined on the vision side. Working with image datasets and analyzing the statistical methods are good examples of this fact.
+\end{itemize}
+
+\begin{tikzpicture}
+\path[mindmap,concept color=black,text=white]
+node[concept] {Computer Vision}
+[clockwise from=0]
+child[concept color=green!50!black] {
+	node[concept] {Related Field}
+	[clockwise from=90]
+	child { node[concept] {Sold-state Physics} }
+	child { node[concept] {Neuro-biology} }
+	child { node[concept] {Signal Processing} }
+	child { node[concept] {Computer Graphics} }
+}  
+child[concept color=violet] {
+	node[concept] {Application}
+	[clockwise from=-10]
+	child { node[concept] {Event Detection} }
+	child { node[concept] {Object Modeling} }
+	child { node[concept] {Naviga-tion} }
+	child { node[concept] {Human Assistance} }
+}
+child[concept color=darkblue] {
+	node[concept] {Typical Tasks}
+	[clockwise from=-80]
+	child { node[concept] {Recogn-ition} 
+			child { node[concept] {OCR} }
+			child { node[concept] {SRT} }}
+	child { node[concept] {Motion-Analysis} 
+			child { node[concept] {Egomo-tion} }
+			child { node[concept] {Tracking} }
+			child { node[concept] {Optical-flow} }}
+	child { node[concept] {Scene Reconstruction} }
+}
+child[concept color=gray] {
+	node[concept] {System Methods}
+	[clockwise from=-150]
+	child { node[concept] {Image acquisition} }
+	child { node[concept] {
+			Feature extraction} }
+	child { node[concept] {Segmenta-tion} }
+};
+
+\end{tikzpicture}
 
 \end{document}
