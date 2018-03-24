@@ -5,40 +5,12 @@
 
 \begin{LTRbibitems}
 \resetlatinfont
-\bibitem{bidabad2007classification}
-Bidabad, Behroz and Tayebi, Akbar.
-\newblock A classification of some finsler connections and their applications.
-\newblock {\em arXiv preprint arXiv:0710.2816}, 2007.
+\bibitem{potter1976short}
+Potter, Mary~C.
+\newblock Short-term conceptual memory for pictures.
+\newblock {\em Journal of experimental psychology: human learning and memory},
+  2(5):509, 1976.
 
 \end{LTRbibitems}
-
-\begin{LTRbibitems}
-\resetlatinfont
-\bibitem{najafi2008finsler}
-Najafi, B, Shen, Z, and Tayebi, A.
-\newblock Finsler metrics of scalar flag curvature with special non-riemannian
-  curvature properties.
-\newblock {\em Geometriae Dedicata}, 131(1):87--97, 2008.
-
-\end{LTRbibitems}
-
-
-\bibitem{aa}
-بیدآباد, دکتر~بهروز.
-\newblock {\em هندسه‌ی منیفلد}.
-\newblock دانشگاه صنعتی امیرکبیر, 1389.
-
-
-\bibitem{zakeri}
-ذاکری, مهندس~محمدرضا.
-\newblock {\em دستورالعمل و راهنمای نگارش
-  پایان‌نامه}.
-\newblock دانشگاه صنعتی امیرکبیر, 1391.
-
-
-\bibitem{najafi}
-نجفی, دکتر~بهزاد.
-\newblock {\em هندسه‌ی منیفلد}.
-\newblock دانشگاه صنعتی امیرکبیر, 1388.
 
 \end{thebibliography}

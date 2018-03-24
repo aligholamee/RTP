@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.3.24)  24 MAR 2018 23:25
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.3.24)  25 MAR 2018 02:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2171,19 +2171,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--70
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 5--10
-[][]
- []
-
 File: bidabad.jpg Graphic file (type QTm)
-<use  "bidabad.jpg" >
+ <use  "bidabad.jpg" >
 File: bibref.jpg Graphic file (type QTm)
  <use  "bibref.jpg" >
-Underfull \hbox (badness 10000) in paragraph at lines 44--53
+Underfull \hbox (badness 10000) in paragraph at lines 31--40
 [][]
  []
 
-[4] [5]
+[4]
+
+LaTeX Warning: Citation `bidabad2007classification' on page 5 undefined on inpu
+t line 58.
+
+
+LaTeX Warning: Citation `aa' on page 5 undefined on input line 58.
+
+
+LaTeX Warning: Citation `najafi2008finsler' on page 5 undefined on input line 6
+0.
+
+
+LaTeX Warning: Citation `zakeri' on page 5 undefined on input line 60.
+
+
+LaTeX Warning: Citation `najafi' on page 5 undefined on input line 60.
+
+[5]
 File: Xindy_Make_Index.png Graphic file (type QTm)
  <use  "Xindy_Make_Index.png" >) [6]
 \openout2 = `chapter3.aux'.
@@ -2194,7 +2208,11 @@ File: Xindy_Make_Index.png Graphic file (type QTm)
 
 
 
-] [8] [9] [10]) [11]
+]
+
+LaTeX Warning: Citation `zakeri' on page 8 undefined on input line 7.
+
+[8] [9] [10]) [11]
 \openout2 = `chapter4.aux'.
 
  (./chapter4.tex
@@ -2215,13 +2233,6 @@ File: Xindy_Make_Index.png Graphic file (type QTm)
 ]) [16] (./AUTthesis.bbl
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
 (Font)              scaled to size 27.36815pt on input line 4.
-
-
-LaTeX Font Warning: Font shape `TU/BNazanin(0)/m/it' undefined
-(Font)              using `TU/BNazanin(0)/m/n' instead on input line 28.
-
-LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/it' will be
-(Font)              scaled to size 13.20007pt on input line 34.
 ) [17
 
 
@@ -2239,7 +2250,8 @@ Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
 Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
- [19
+
+[19
 
 
 
@@ -2285,15 +2297,15 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 95.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 95.
 
 
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+LaTeX Warning: There were undefined references.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
  ) 
 Here is how much of TeX's memory you used:
- 36161 strings out of 493005
- 695919 string characters out of 6137956
- 865528 words of memory out of 5000000
- 39365 multiletter control sequences out of 15000+600000
+ 36160 strings out of 493005
+ 695895 string characters out of 6137956
+ 865527 words of memory out of 5000000
+ 39364 multiletter control sequences out of 15000+600000
  13990 words of font info for 131 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  57i,11n,68p,10417b,548s stack positions out of 5000i,500n,10000p,200000b,80000s
