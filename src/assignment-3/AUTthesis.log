@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.3.24)  24 MAR 2018 21:24
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.3.24)  24 MAR 2018 22:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1942,26 +1942,6 @@ m (toc, 1): 23.00003pt
 C (toc, 1): 11.14401pt
 a (toc, 1): 23.91869pt
 A (toc, 1): 14.02509pt
-m (toc, 1): 23.00003pt
-C (toc, 1): 11.14401pt
-a (toc, 1): 23.91869pt
-A (toc, 1): 14.02509pt
-m (toc, 2): 31.99997pt
-C (toc, 2): 35.0627pt
-a (toc, 2): 35.0498pt
-A (toc, 2): 37.94377pt
-m (toc, 2): 31.99997pt
-C (toc, 2): 35.0627pt
-a (toc, 2): 35.0498pt
-A (toc, 2): 37.94377pt
-m (toc, 2): 31.99997pt
-C (toc, 2): 35.0627pt
-a (toc, 2): 35.0498pt
-A (toc, 2): 37.94377pt
-m (toc, 1): 23.00003pt
-C (toc, 1): 11.14401pt
-a (toc, 1): 23.91869pt
-A (toc, 1): 14.02509pt
 m (toc, 0): 15.0pt
 C (toc, 0): 0.0pt
 a (toc, 0): 14.02509pt
@@ -2054,6 +2034,26 @@ m (toc, 0): 15.0pt
 C (toc, 0): 0.0pt
 a (toc, 0): 14.02509pt
 A (toc, 0): 0.0pt
+m (toc, 1): 23.00003pt
+C (toc, 1): 14.02509pt
+a (toc, 1): 23.91869pt
+A (toc, 1): 14.02509pt
+m (toc, 1): 23.00003pt
+C (toc, 1): 14.02509pt
+a (toc, 1): 23.91869pt
+A (toc, 1): 14.02509pt
+m (toc, 1): 23.00003pt
+C (toc, 1): 14.02509pt
+a (toc, 1): 23.91869pt
+A (toc, 1): 14.02509pt
+m (toc, 1): 23.00003pt
+C (toc, 1): 14.02509pt
+a (toc, 1): 23.91869pt
+A (toc, 1): 14.02509pt
+m (toc, 1): 23.00003pt
+C (toc, 1): 14.02509pt
+a (toc, 1): 23.91869pt
+A (toc, 1): 14.02509pt
 m (toc, 1): 23.00003pt
 C (toc, 1): 14.02509pt
 a (toc, 1): 23.91869pt
@@ -2061,26 +2061,6 @@ A (toc, 1): 14.02509pt
 [2
 
 ]
-m (toc, 1): 23.00003pt
-C (toc, 1): 14.02509pt
-a (toc, 1): 23.91869pt
-A (toc, 1): 14.02509pt
-m (toc, 1): 23.00003pt
-C (toc, 1): 14.02509pt
-a (toc, 1): 23.91869pt
-A (toc, 1): 14.02509pt
-m (toc, 1): 23.00003pt
-C (toc, 1): 14.02509pt
-a (toc, 1): 23.91869pt
-A (toc, 1): 14.02509pt
-m (toc, 1): 23.00003pt
-C (toc, 1): 14.02509pt
-a (toc, 1): 23.91869pt
-A (toc, 1): 14.02509pt
-m (toc, 1): 23.00003pt
-C (toc, 1): 14.02509pt
-a (toc, 1): 23.91869pt
-A (toc, 1): 14.02509pt
 m (toc, 1): 23.00003pt
 C (toc, 1): 14.02509pt
 a (toc, 1): 23.91869pt
@@ -2176,19 +2156,12 @@ LaTeX Font Info:    Font shape `TU/BNazanin(1)/bx/n' will be
 [1
 
 
-]
-Overfull \hbox (28.17111pt too wide) in paragraph at lines 6--42
-[]\TU/BNazanin(0)/m/n/12 تنظیمات قابل تغییر توسط کاربر، داخل []\TU/lmtt/m/n/12 
-commands.tex\TU/BNazanin(0)/m/n/12 ، قسمت مشخصات فارسی پایان‌نامه، داخل []\TU/l
-mtt/m/n/12 fa_title.tex\TU/BNazanin(0)/m/n/12 ،[]
- []
-
-[2] [3]) [4]
+]) [2]
 \openout2 = `chapter2.aux'.
 
  (./chapter2.tex
 فصل 2.
-[5
+[3
 
 
 
@@ -2205,36 +2178,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--53
 [][]
  []
 
-[6] [7]
+[4] [5]
 File: Xindy_Make_Index.png Graphic file (type QTm)
- <use  "Xindy_Make_Index.png" >) [8]
+ <use  "Xindy_Make_Index.png" >) [6]
 \openout2 = `chapter3.aux'.
 
  (./chapter3.tex
 فصل 3.
-[9
+[7
 
 
 
-] [10] [11] [12]) [13]
+] [8] [9] [10]) [11]
 \openout2 = `chapter4.aux'.
 
  (./chapter4.tex
 فصل 4.
-[14
+[12
 
 
 
-] [15]) [16]
+] [13]) [14]
 \openout2 = `chapter5.aux'.
 
  (./chapter5.tex
 فصل 5.
-[17
+[15
 
 
 
-]) [18] (./AUTthesis.bbl
+]) [16] (./AUTthesis.bbl
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
 (Font)              scaled to size 27.36815pt on input line 4.
 
@@ -2244,13 +2217,13 @@ LaTeX Font Warning: Font shape `TU/BNazanin(0)/m/it' undefined
 
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/it' will be
 (Font)              scaled to size 13.20007pt on input line 34.
-) [19
+) [17
 
 
 ]
 \openout2 = `appendix1.aux'.
 
- (./appendix1.tex) [20
+ (./appendix1.tex) [18
 
 
 ]
@@ -2261,7 +2234,7 @@ Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
 Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
- [21
+ [19
 
 
 
@@ -2270,7 +2243,7 @@ Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
 Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
- [22])
+ [20])
 \openout2 = `dicen2fa.aux'.
 
  (./dicen2fa.tex
@@ -2281,7 +2254,7 @@ Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
 
-[23
+[21
 
 
 
@@ -2290,10 +2263,10 @@ Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
 Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
-) [24] (./AUTthesis.ind)
+) [22] (./AUTthesis.ind)
 \openout2 = `en-abstract.aux'.
 
- (./en-abstract.tex) [25
+ (./en-abstract.tex) [23
 
 
 ] (./en_title.tex)
@@ -2312,12 +2285,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
  ) 
 Here is how much of TeX's memory you used:
- 36185 strings out of 493005
- 696241 string characters out of 6137956
+ 36161 strings out of 493005
+ 695919 string characters out of 6137956
  865528 words of memory out of 5000000
- 39387 multiletter control sequences out of 15000+600000
- 13998 words of font info for 132 fonts, out of 8000000 for 9000
+ 39365 multiletter control sequences out of 15000+600000
+ 13990 words of font info for 131 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  57i,11n,68p,10417b,548s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on AUTthesis.pdf (37 pages).
+Output written on AUTthesis.pdf (35 pages).
