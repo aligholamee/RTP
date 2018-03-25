@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.3.24)  25 MAR 2018 11:33
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.3.24)  25 MAR 2018 12:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1953,7 +1953,7 @@ A (toc, 1): 14.02509pt
 m (toc, 2): 31.99997pt
 C (toc, 2): 36.93184pt
 a (toc, 2): 35.0498pt
-A (toc, 2): 37.94377pt
+A (toc, 2): 36.93184pt
 m (toc, 0): 15.0pt
 C (toc, 0): 0.0pt
 a (toc, 0): 14.02509pt
@@ -1962,46 +1962,6 @@ m (toc, 1): 23.00003pt
 C (toc, 1): 14.02509pt
 a (toc, 1): 23.91869pt
 A (toc, 1): 14.02509pt
-m (toc, 1): 23.00003pt
-C (toc, 1): 14.02509pt
-a (toc, 1): 23.91869pt
-A (toc, 1): 14.02509pt
-m (toc, 1): 23.00003pt
-C (toc, 1): 14.02509pt
-a (toc, 1): 23.91869pt
-A (toc, 1): 14.02509pt
-m (toc, 1): 23.00003pt
-C (toc, 1): 14.02509pt
-a (toc, 1): 23.91869pt
-A (toc, 1): 14.02509pt
-m (toc, 2): 31.99997pt
-C (toc, 2): 37.94377pt
-a (toc, 2): 35.0498pt
-A (toc, 2): 37.94377pt
-m (toc, 2): 31.99997pt
-C (toc, 2): 37.94377pt
-a (toc, 2): 35.0498pt
-A (toc, 2): 37.94377pt
-m (toc, 2): 31.99997pt
-C (toc, 2): 37.94377pt
-a (toc, 2): 35.0498pt
-A (toc, 2): 37.94377pt
-m (toc, 2): 31.99997pt
-C (toc, 2): 37.94377pt
-a (toc, 2): 35.0498pt
-A (toc, 2): 37.94377pt
-m (toc, 2): 31.99997pt
-C (toc, 2): 37.94377pt
-a (toc, 2): 35.0498pt
-A (toc, 2): 37.94377pt
-m (toc, 2): 31.99997pt
-C (toc, 2): 37.94377pt
-a (toc, 2): 35.0498pt
-A (toc, 2): 37.94377pt
-m (toc, 2): 31.99997pt
-C (toc, 2): 37.94377pt
-a (toc, 2): 35.0498pt
-A (toc, 2): 37.94377pt
 m (toc, 1): 23.00003pt
 C (toc, 1): 14.02509pt
 a (toc, 1): 23.91869pt
@@ -2054,9 +2014,6 @@ m (toc, 0): 15.0pt
 C (toc, 0): 0.0pt
 a (toc, 0): 14.02509pt
 A (toc, 0): 0.0pt
-[2
-
-]
 m (toc, 0): 15.0pt
 C (toc, 0): 0.0pt
 a (toc, 0): 14.02509pt
@@ -2073,17 +2030,19 @@ A (toc, 0): 0.0pt
 \tf@toc=\write7
 \openout7 = `AUTthesis.toc'.
 
- [3] (./AUTthesis.lof)
+ [2
+
+] (./AUTthesis.lof)
 \tf@lof=\write8
 \openout8 = `AUTthesis.lof'.
 
- [4
+ [3
 
 ] (./AUTthesis.lot)
 \tf@lot=\write9
 \openout9 = `AUTthesis.lot'.
 
- [5
+ [4
 
 ]) (./list-of-symbols.tex
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
@@ -2102,7 +2061,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--68
 [][]
  []
 
-[6
+[5
 
 
 ])
@@ -2147,38 +2106,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--10
 
 
 
-]
-
-LaTeX Warning: Citation `zakeri' on page 6 undefined on input line 7.
-
-[6] [7] [8]) [9]
+]) [6]
 \openout2 = `chapter4.aux'.
 
  (./chapter4.tex
 فصل 4.
-[10
+[7
 
 
 
-] [11]) [12]
+] [8]) [9]
 \openout2 = `chapter5.aux'.
 
  (./chapter5.tex
 فصل 5.
-[13
+[10
 
 
 
-]) [14] (./AUTthesis.bbl
+]) [11] (./AUTthesis.bbl
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
 (Font)              scaled to size 27.36815pt on input line 4.
-) [15
+) [12
 
 
 ]
 \openout2 = `appendix1.aux'.
 
- (./appendix1.tex) [16
+ (./appendix1.tex) [13
 
 
 ]
@@ -2190,7 +2145,7 @@ Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
 
-[17
+[14
 
 
 
@@ -2199,7 +2154,7 @@ Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
 Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
- [18])
+ [15])
 \openout2 = `dicen2fa.aux'.
 
  (./dicen2fa.tex
@@ -2210,7 +2165,7 @@ Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
 
-[19
+[16
 
 
 
@@ -2219,10 +2174,10 @@ Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
 Missing character: There is no p in font B Nazanin/OT:script=arab;language=DFLT
 ;mapping=parsidigits;!
-) [20] (./AUTthesis.ind)
+) [17] (./AUTthesis.ind)
 \openout2 = `en-abstract.aux'.
 
- (./en-abstract.tex) [21
+ (./en-abstract.tex) [18
 
 
 ] (./en_title.tex)
@@ -2234,19 +2189,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
 (./dicen2fa.aux) (./en-abstract.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 95.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 95.
-
-
-LaTeX Warning: There were undefined references.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
  ) 
 Here is how much of TeX's memory you used:
- 36114 strings out of 493005
- 694834 string characters out of 6137956
+ 36096 strings out of 493005
+ 694509 string characters out of 6137956
  865528 words of memory out of 5000000
- 39324 multiletter control sequences out of 15000+600000
- 13974 words of font info for 129 fonts, out of 8000000 for 9000
+ 39309 multiletter control sequences out of 15000+600000
+ 13722 words of font info for 126 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 57i,11n,68p,10417b,500s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,11n,68p,10417b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on AUTthesis.pdf (33 pages).
+Output written on AUTthesis.pdf (29 pages).

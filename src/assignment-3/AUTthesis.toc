@@ -1,7 +1,7 @@
 \edef \SavedTocDepth {\the \value {tocdepth}}
 \setcounter {tocdepth}{-10}
-\contentsline {chapter}{فهرست اشکال}{د}{section*.4}
-\contentsline {chapter}{فهرست جداول}{ه}{section*.5}
+\contentsline {chapter}{فهرست اشکال}{ج}{section*.4}
+\contentsline {chapter}{فهرست جداول}{د}{section*.5}
 \par عنوان\hfill صفحه \par 
 \setcounter {tocdepth}{\SavedTocDepth }
 \contentsline {chapter}{\numberline {1}مقدمه}{1}{chapter.1}
@@ -11,32 +11,22 @@
 \contentsline {chapter}{\numberline {2}مروری بر مطالعات گذشته}{3}{chapter.2}
 \contentsline {section}{\numberline {2-1}مقدمه}{4}{section.2.1}
 \contentsline {subsection}{\numberline {2-1-1}مغز چگونه تصاویر را درک می کند؟}{4}{subsection.2.1.1}
-\contentsline {chapter}{\numberline {3}نگارش صحيح}{5}{chapter.3}
+\contentsline {chapter}{\numberline {3}روش ارائه شده در پژوهش}{5}{chapter.3}
 \contentsline {section}{\numberline {3-1}مقدمه}{6}{section.3.1}
-\contentsline {section}{\numberline {3-2}فارسی نویسی}{6}{section.3.2}
-\contentsline {section}{\numberline {3-3}رعایت املای صحيح }{6}{section.3.3}
-\contentsline {section}{\numberline {3-4}رعایت قواعد نشانه‌گذاری}{7}{section.3.4}
-\contentsline {subsection}{\numberline {3-4-1}ويرگول}{7}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3-4-2}نقطه}{7}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3-4-3}دونقطه}{7}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3-4-4}گیومه}{7}{subsection.3.4.4}
-\contentsline {subsection}{\numberline {3-4-5}نشانه پرسشی}{8}{subsection.3.4.5}
-\contentsline {subsection}{\numberline {3-4-6}خط تیره}{8}{subsection.3.4.6}
-\contentsline {subsection}{\numberline {3-4-7}پرانتز}{8}{subsection.3.4.7}
-\contentsline {section}{\numberline {3-5}جدا یا سرهم نوشتن برخی کلمات}{8}{section.3.5}
-\contentsline {chapter}{\numberline {4}مشخصات یک پایان نامه و گزارش علمی}{10}{chapter.4}
-\contentsline {section}{\numberline {4-1}برخورداری از غنای علمی }{11}{section.4.1}
-\contentsline {section}{\numberline {4-2}ارجاع به‌موقع و صحیح به منابع دیگر}{11}{section.4.2}
-\contentsline {section}{\numberline {4-3}ساده‌نویسی }{11}{section.4.3}
-\contentsline {section}{\numberline {4-4}وحدت موضوع}{11}{section.4.4}
-\contentsline {section}{\numberline {4-5}اختصار}{12}{section.4.5}
-\contentsline {section}{\numberline {4-6}رعایت نكات دستوري و نشانه‌گذاري}{12}{section.4.6}
-\contentsline {section}{\numberline {4-7}توجه به معلومات ذهنی مخاطب}{12}{section.4.7}
-\contentsline {section}{\numberline {4-8}رعایت مراحل اصولی نگارش}{12}{section.4.8}
-\contentsline {chapter}{\numberline {5}جمع‌بندي و نتيجه‌گيري و پیشنهادات}{13}{chapter.5}
-\contentsline {section}{\numberline {5-1}پیشنهادات}{14}{section.5.1}
-\contentsline {chapter}{منابع و مراجع}{15}{appendix*.6}
-\contentsline {chapter}{پیوست}{16}{appendix*.7}
-\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{17}{appendix*.9}
-\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{19}{appendix*.10}
+\contentsline {section}{\numberline {3-2}بیان مشکلات موجود}{6}{section.3.2}
+\contentsline {chapter}{\numberline {4}مشخصات یک پایان نامه و گزارش علمی}{7}{chapter.4}
+\contentsline {section}{\numberline {4-1}برخورداری از غنای علمی }{8}{section.4.1}
+\contentsline {section}{\numberline {4-2}ارجاع به‌موقع و صحیح به منابع دیگر}{8}{section.4.2}
+\contentsline {section}{\numberline {4-3}ساده‌نویسی }{8}{section.4.3}
+\contentsline {section}{\numberline {4-4}وحدت موضوع}{8}{section.4.4}
+\contentsline {section}{\numberline {4-5}اختصار}{9}{section.4.5}
+\contentsline {section}{\numberline {4-6}رعایت نكات دستوري و نشانه‌گذاري}{9}{section.4.6}
+\contentsline {section}{\numberline {4-7}توجه به معلومات ذهنی مخاطب}{9}{section.4.7}
+\contentsline {section}{\numberline {4-8}رعایت مراحل اصولی نگارش}{9}{section.4.8}
+\contentsline {chapter}{\numberline {5}جمع‌بندي و نتيجه‌گيري و پیشنهادات}{10}{chapter.5}
+\contentsline {section}{\numberline {5-1}پیشنهادات}{11}{section.5.1}
+\contentsline {chapter}{منابع و مراجع}{12}{appendix*.6}
+\contentsline {chapter}{پیوست}{13}{appendix*.7}
+\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{14}{appendix*.9}
+\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{16}{appendix*.10}
 \contentsfinish 

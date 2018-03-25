@@ -5,6 +5,15 @@
 
 \begin{LTRbibitems}
 \resetlatinfont
+\bibitem{fei2007we}
+Fei-Fei, Li, Iyer, Asha, Koch, Christof, and Perona, Pietro.
+\newblock What do we perceive in a glance of a real-world scene?
+\newblock {\em Journal of vision}, 7(1):10--10, 2007.
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
 \bibitem{potter1976short}
 Potter, Mary~C.
 \newblock Short-term conceptual memory for pictures.
