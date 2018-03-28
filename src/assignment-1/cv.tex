@@ -19,10 +19,8 @@
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
-
 \documentclass[margin, 10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
-
-	\usepackage{fontawesome}
+    \usepackage{fontawesome}
     \usepackage{helvet} % Default font is the helvetica postscript font
     \usepackage[shortlabels]{enumitem}
     %\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
@@ -36,7 +34,7 @@
     \newlist{innerlist}{itemize}{3}
     \setlist[innerlist]{label=\enskip\textbullet,leftmargin=*,parsep=0pt,itemsep=0pt,topsep=0pt,partopsep=0pt}
     \begin{document}
-    
+
     %----------------------------------------------------------------------------------------
     %	NAME AND ADDRESS SECTION
     %----------------------------------------------------------------------------------------
@@ -68,9 +66,22 @@
  	
     \textbf{Mathematics \& Physics Diploma} \textsc{@}
     \href{http://www.kamal.sch.ir/}{\textsc{Kamal Highschool}}\hfill {\UrlFont{\underline{GPA: 19/20}}}
-  
-  	\vspace{0.5cm}
-  	
+
+	\section{RESEARCH \\ INTERESTS}
+	\vspace{0.6cm}
+		  	
+	 \begin{innerlist}
+	\begin{minipage}{0.4\linewidth}
+		\item Visual Question Answering
+		\item Image Segmentation
+	\end{minipage}
+	\begin{minipage}{0.4\linewidth}	
+		\item Image Captioning
+		\item Deep Learning
+	\end{minipage}
+\end{innerlist}
+		\vspace{0.2cm}
+		
   	\section{RELATED \\ COURSES}
 	\textbf{Machine Learning} \textsc{@} \textsc{Amirkabir University of Technology}\\
 	\textbf{Computer Vision} \textsc{@} \textsc{Udacity}\\
@@ -79,7 +90,6 @@
     %----------------------------------------------------------------------------------------
     %	Technology SKILLS SECTION
     %----------------------------------------------------------------------------------------
-    
     \section{RESEARCH \\ EXPERIENCE} 
 
 	\textbf{CEIT} \textsc{@} \textsc{Amirkabir University of Technology}
@@ -97,25 +107,56 @@
 		
 	\end{innerlist}
 
-  	\vspace{0.5cm}
     %----------------------------------------------------------------------------------------
     %	PAPERS AND TECHNICAL REPORTS SECTION
     %----------------------------------------------------------------------------------------
      
     \section{TECHNICAL REPORTS}
-    \textbf{Design \& Implementation of Programming Languages}\\
-    \textit{Advisor: Prof. Mehran S. Fallah} -- 
-    \href{https://github.com/aligholamee/HALFLIFE/tree/master/reports}{\UrlFont[docs]}
-    
-    \textbf{Machine Learning}\\
-    \textit{Advisor: Prof. Mohamad E. Shiri} --
-    \href{https://github.com/aligholamee/Hornburg}{\UrlFont[docs]}
-    
-    \textbf{Microprocessors \& Assembly Programming}\\
-    \textit{Advisor: Prof. Mahdi Homayounpour} --
-    \href{https://github.com/aligholamee/Microprocessors}{\UrlFont[docs]}
+        \textbf{Statistical Pattern Recognition}\\
+		\textit{Advisor: Prof. Mohammad Rahmati}
+		\begin{innerlist}
+			\item \textit{Introduction to Linear Algebra -- Statistics -- Probabilities} \href{https://github.com/aligholamee/Patterns/raw/master/docs/assignment-1/SPR_9531504_HW1.pdf}{\hfill\UrlFont[docs]}
+			
+			\item \textit{LDA \& QDA -- Bayesian Classification -- Error Bounds} \href{https://github.com/aligholamee/Patterns/raw/master/docs/assignment-2/SPR_9531504_HW2.pdf}{\hfill\UrlFont[docs]}
 
-  	\vspace{0.5cm}
+		\end{innerlist}
+
+        \textbf{Data Mining}\\
+		\textit{Advisor: Prof. Ehsan Nazerfard}
+		\begin{innerlist}
+			\item \textit{Association Rule Mining -- Feature Engineering} \href{https://github.com/aligholamee/Datadigger/raw/master/docs/assignment-1/report/DM_9531504_HW1.pdf}{\hfill\UrlFont[docs]}
+			
+			\item \textit{Decision Tree Classifier -- Data Cleaning} \href{https://github.com/aligholamee/Datadigger/raw/master/docs/assignment-2/report/DM_9531504_HW2.pdf}{\hfill\UrlFont[docs]}
+		\end{innerlist}
+
+        \textbf{Design \& Implementation of Programming Languages}\\
+    	\textit{Advisor: Prof. Mehran S. Fallah}
+	    \begin{innerlist}
+	    	\item \textit{Induction \& Denotational Semantics -- Lambda Calculus} \href{https://github.com/aligholamee/HALFLIFE/raw/master/reports/PL29531504.pdf}{\hfill\UrlFont[docs]}
+	    	\item \textit{Lisp \& Garbage Collection -- Higher-order Functions} \href{https://github.com/aligholamee/HALFLIFE/raw/master/reports/PL39531504.pdf}{\hfill\UrlFont[docs]}
+	    	\item \textit{Algol \& Meta Language -- ML Data Types \& Patterns} \href{https://github.com/aligholamee/HALFLIFE/raw/master/reports/PL49531504.pdf}{\hfill\UrlFont[docs]}
+	    	\item \textit{Type Safety \& Type Inference -- Polymorphism} \href{https://github.com/aligholamee/HALFLIFE/raw/master/reports/PL49531504.pdf}{\hfill\UrlFont[docs]}
+	    \end{innerlist}
+
+        \textbf{Computer Networks}\\
+		\textit{Advisor: Prof. Siavash Khorsandi}
+		\begin{innerlist}
+			\item \textit{Introduction to Computer Networks} \href{https://github.com/aligholamee/Compnets/raw/master/docs/assignment-1/compnet_assignment_1_9531504.pdf}{\hfill\UrlFont[docs]}
+		
+			\item \textit{Packet Transmission Approaches -- Congestion Control} \href{https://github.com/aligholamee/Compnets/raw/master/docs/assignment-2/compnet_assignment_2_9531504.pdf}{\hfill\UrlFont[docs]}
+
+			\item \textit{Queuing \& Delay Analysis} \href{https://github.com/aligholamee/Compnets/raw/master/docs/assignment-3/compnet_assignment_3_9531504.pdf}{\hfill\UrlFont[docs]}
+			
+			\item \textit{Queuing \& Delay Analysis -- Network Protocols} \href{https://github.com/aligholamee/Compnets/raw/master/docs/assignment-4/compnet_assignment_4_9531504.pdf}{\hfill\UrlFont[docs]}
+		\end{innerlist}
+	
+        \textbf{Multi-core Programming}\\
+			\textit{Advisor: Prof. Mahmoud Momtazpour}
+			\begin{innerlist}
+				\item \textit{Parallel Architectures -- Speedup Metrics} \href{https://github.com/aligholamee/Parallax/raw/master/docs/assignment-1/MCP_9531504_HW1.pdf}{\hfill\UrlFont[docs]}
+
+			\end{innerlist}
+	
     %----------------------------------------------------------------------------------------
     %	WORK EXPERIENCE
     %---------------------------------------------------------------------------------------- 
@@ -137,7 +178,6 @@
 		\item \textit{Java, React Native}
 	\end{innerlist}
 
-  	\vspace{0.5cm}
     %----------------------------------------------------------------------------------------
     %	TEACHING EXPERIENCE
     %----------------------------------------------------------------------------------------
@@ -155,7 +195,8 @@
    \hfill {Sep -- Dec 2015}\\
    \textit{Foundations of Programming in C++}\\
    \textit{Advisor: Dr. Azadeh Mansouri}
-      	\vspace{0.5cm}
+
+
     %----------------------------------------------------------------------------------------
 	%	TALKS
 	%----------------------------------------------------------------------------------------
@@ -180,7 +221,8 @@
 	\begin{innerlist}
 		\item Introduction to \textit{Metasploit Framework} \& \textit{Social Engineering} techniques.
 	\end{innerlist}
-  	\vspace{0.5cm}
+
+
     %----------------------------------------------------------------------------------------
 	%	HONORS
 	%----------------------------------------------------------------------------------------
@@ -197,7 +239,8 @@
 	in the Nationwide University Entrance Exam \hfill {July 2014}\\ among all students in 
 	Mathemathics and physics (approximately 250,000).
     \end{resume}
-  	\vspace{0.5cm}
+
+
     %----------------------------------------------------------------------------------------
 	%	COMPETENCES
 	%----------------------------------------------------------------------------------------
@@ -211,7 +254,8 @@
 	
 	\textbf{Tools \& Platforms}
 	\textit{Tensorflow, scikit-learn, Numpy, Pandas, Matplotlib, Weka, Arduino, ARM, AVR, CodeVision, Xillinx Vivado, ModelSim, Atmel Studio, Cadence PSpice, Keil, Dr. Racket, MongoDB, PostgreSQL, MySQL, Visual Studio, TeXstudio}.
-	  	\vspace{0.5cm}
+
+
     %----------------------------------------------------------------------------------------
 	%	PROJECTS
 	%----------------------------------------------------------------------------------------
@@ -220,91 +264,92 @@
 \textbf{Annealing}, 
 \textit{Data Cleaning \& Preprocessing}
 \begin{innerlist}
-	\item Preprocessing and cleaning the dataset of annealing. Reached 98\% accuracy. \href{https://github.com/aligholamee/Datadigger/assignment-2/src}{\UrlFont[code]}\href{https://github.com/aligholamee/Datadigger/assignment-2/docs}{\UrlFont[report]}
+	\item Preprocessing and cleaning the dataset of annealing. Reached 98\% accuracy.\\ \phantom{km}
+	\hfill{\UrlFont{\href{https://github.com/aligholamee/Datadigger/raw/master/docs/assignment-2/report/DM_9531504_HW2.pdf}{[docs]}\href{https://github.com/aligholamee/Datadigger/tree/master/docs/assignment-2/src}{[code]}}}
 \end{innerlist}
 
 \textbf{Titanic}, 
 \textit{Data Science \& Feature Engineering}
 \begin{innerlist}
-	\item Prediction of Titanic survivals as a part of Kaggle competition. Reached an Accuracy of 83\% and Recall of 76\%. \href{https://github.com/aligholamee/Titanic}{\UrlFont[notebook]}
+	\item Prediction of Titanic survivals as a part of Kaggle competition. Reached an Accuracy of 83\% and Recall of 76\%. \href{https://github.com/aligholamee/Titanic}{\hfill{\UrlFont[code]}}
 \end{innerlist}
 
 \textbf{MNIST-Drawer}, 
 \textit{Variational Autoencoder}
 \begin{innerlist}
-	\item Implementation of a \textit{Variational Autoencoder} to draw \textit{MNIST} dataset characters using \textit{Tensorflow}. \href{https://github.com/aligholamee/MNIST-Drawer}{\UrlFont[code]}
+	\item Implementation of a \textit{Variational Autoencoder} to draw \textit{MNIST} dataset characters using \textit{Tensorflow}. \href{https://github.com/aligholamee/MNIST-Drawer}{\hfill{\UrlFont[code]}}
 \end{innerlist}
 
 \textbf{notMNIST}, 
 {\textit{Convolutional Neural Network}
 	\begin{innerlist}
-		\item Implementation of multiple machine learning classifiers and regularization techniques on the \textit{notMNIST} dataset using \textit{Tensorflow}. \href{https://github.com/aligholamee/notMNIST}{\UrlFont[code]}
+		\item Implementation of multiple machine learning classifiers and regularization techniques on the \textit{notMNIST} dataset using \textit{Tensorflow}. \href{https://github.com/aligholamee/notMNIST}{\hfill{\UrlFont[code]}}
 	\end{innerlist}
 
 	\textbf{Freeman}, 
 	{\textit{Hardware Programming \& Co-design}
 		\begin{innerlist}
-			\item Implementation of a \textit{Parking Controller} \& \textit{Security Controller} using \textit{VHDL}. \href{https://github.com/aligholamee/Freeman}{\UrlFont[code]}
+			\item Implementation of a \textit{Parking Controller} \& \textit{Security Controller} using \textit{VHDL}.\\ \  \href{https://github.com/aligholamee/Freeman}{\hfill{\UrlFont[code]}}
 		\end{innerlist}
 		
 		\textbf{Numex}, 
 		\textit{Functional Programming}
 		\begin{innerlist}
-			\item Implementation of an \textit{Advanced Functional Interpreter} using \textit{Racket}. \href{https://github.com/aligholamee/NUMEX}{\UrlFont[code]}
+			\item Implementation of an \textit{Advanced Functional Interpreter} using \textit{Racket}. \href{https://github.com/aligholamee/NUMEX}{\hfill{\UrlFont[code]}}
 		\end{innerlist}
 		
 		\textbf{Hornburg}, 
 		\textit{Deep Learning Basics}
 		\begin{innerlist}
-			\item Implementation of \textit{Principal Machine Learning Algorithms} using \textit{Python}. \href{https://github.com/aligholamee/Hornburg}{\UrlFont[code]}
+			\item Implementation of \textit{Principal Machine Learning Algorithms} using \textit{Python}. \href{https://github.com/aligholamee/Hornburg}{\hfill{\UrlFont[code]}}
 		\end{innerlist}
 		
 		\textbf{Iris}, 
 		\textit{Multi-nomial classification}
 		\begin{innerlist}
-			\item Multi-nomial classification of \textit{Iris} dataset using \textit{scikit-learn}. \href{https://github.com/aligholamee/IRIS}{\UrlFont[code]}
+			\item Multi-nomial classification of \textit{Iris} dataset using \textit{scikit-learn}. \href{https://github.com/aligholamee/IRIS}{\hfill{\UrlFont[code]}}
 		\end{innerlist}
 	
 		\textbf{ARMHE}, 
 		\textit{Advanced RISC Machine Programming}
 		\begin{innerlist}
-			\item Implementation of the \textit{Histogram Equalization} algorithm on the \textit{STMF32F407VGT6} with \textit{ARMv4T} architecture using \textit{ARM Assembly}. \href{https://github.com/aligholamee/ARMHE}{\UrlFont[code]}
+			\item Implementation of the \textit{Histogram Equalization} algorithm on the \textit{STMF32F407VGT6} with \textit{ARMv4T} architecture using \textit{ARM Assembly}. \href{https://github.com/aligholamee/ARMHE}{\hfill{\UrlFont[code]}}
 		\end{innerlist}
 
 		\textbf{Cinder}, 
 		{\textit{Low Level Programming}
 			\begin{innerlist}
-				\item Implementation of a basic \textit{Operating System} with \textit{C}. \href{https://github.com/aligholamee/CinderOS}{\UrlFont[code]}
+				\item Implementation of a basic \textit{Operating System} with \textit{C}. \href{https://github.com/aligholamee/CinderOS}{\hfill{\UrlFont[code]}}
 			\end{innerlist}
 
 			\textbf{Sockets}, 
 			\textit{Socket Programming}
 			\begin{innerlist}
-				\item Implementation of various types of \textit{Sockets} in \textit{Interprocess Communication} \& \textit{TCP/IP Protocol} with \textit{C}. \href{https://github.com/aligholamee/Socket-Programming-Package}{\UrlFont[code]}
+				\item Implementation of various types of \textit{Sockets} in \textit{Interprocess Communication} \& \textit{TCP/IP Protocol} with \textit{C}. \href{https://github.com/aligholamee/Socket-Programming-Package}{\hfill{\UrlFont[code]}}
 			\end{innerlist}
 
 			\textbf{Toofan}, 
 			\textit{Android Application Development}
 			\begin{innerlist}
-				\item Implementation of a \textit{Weather Forecast Application} on the \textit{Android} platform using \textit{Java} \& \textit{Android Studio}. \href{https://github.com/aligholamee/Toofan}{\UrlFont[code]}
+				\item Implementation of a \textit{Weather Forecast Application} on the \textit{Android} platform using \textit{Java} \& \textit{Android Studio}. \href{https://github.com/aligholamee/Toofan}{\hfill{\UrlFont[code]}}
 			\end{innerlist}
 
 			\textbf{Huffman}, 
 			\textit{Huffman Coding}
 			\begin{innerlist}
-				\item Implementation of the \textit{Huffman Text Compression Algorithm} using \textit{Java}. \href{https://github.com/aligholamee/Java-Huffman-Zipper}{\UrlFont[code]}
+				\item Implementation of the \textit{Huffman Text Compression Algorithm} using \textit{Java}. \href{https://github.com/aligholamee/Java-Huffman-Zipper}{\hfill{\UrlFont[code]}}
 			\end{innerlist}
 			
 			\textbf{2048}, 
 			\textit{C++ Programming}
 			\begin{innerlist}
-				\item Implementation of the \textit{2048 Puzzle Game} with various gameplay tweaks using \textit{C++}. \href{https://github.com/aligholamee/2048-Console-Game}{\UrlFont[code]}
+				\item Implementation of the \textit{2048 Puzzle Game} with various gameplay tweaks using \textit{C++}. \href{https://github.com/aligholamee/2048-Console-Game}{\hfill{\UrlFont[code]}}
 			\end{innerlist}
 			
 			\textbf{Manobase}, 
 			\textit{VHDL Programming}
 			\begin{innerlist}
-				\item Implementation of the \textit{Morris Mano's Base Computer} using \textit{VHDL}. \href{https://github.com/aligholamee/Mano-Basic-Computer-Design}{\UrlFont[code]}
+				\item Implementation of the \textit{Morris Mano's Base Computer} using \textit{VHDL}. \href{https://github.com/aligholamee/Mano-Basic-Computer-Design}{\hfill{\UrlFont[code]}}
 			\end{innerlist}
 	
     \end{document}
