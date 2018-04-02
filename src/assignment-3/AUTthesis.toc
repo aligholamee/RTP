@@ -17,5 +17,6 @@
 \contentsline {section}{\numberline {4-2}معیار بلیو}{8}{section.4.2}
 \contentsline {section}{\numberline {4-3}معیار سایدر}{8}{section.4.3}
 \contentsline {chapter}{\numberline {5}جمع‌بندي و نتيجه‌گيري و پیشنهادات}{9}{chapter.5}
-\contentsline {chapter}{منابع و مراجع}{11}{appendix*.4}
+\contentsline {chapter}{\numberline {6}نحوه ی آماده سازی}{11}{chapter.6}
+\contentsline {chapter}{منابع و مراجع}{13}{appendix*.4}
 \contentsfinish 
