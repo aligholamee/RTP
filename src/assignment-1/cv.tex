@@ -26,11 +26,11 @@
     %\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
     \usepackage{url}
 	\usepackage{color,hyperref}
-	\definecolor{darkblue}{rgb}{0.0,0.0,0.35}
+	\definecolor{darkblue}{rgb}{0.0,0.0,0.55}
 	\hypersetup{colorlinks,breaklinks,
 		linkcolor=darkblue,urlcolor=darkblue,
 		anchorcolor=darkblue,citecolor=darkblue}
-    \setlength{\textwidth}{5.1in} % Text width of the document
+    \setlength{\textwidth}{6in} % Text width of the document
     \newlist{innerlist}{itemize}{3}
     \setlist[innerlist]{label=\enskip\textbullet,leftmargin=*,parsep=0pt,itemsep=0pt,topsep=0pt,partopsep=0pt}
     \begin{document}
@@ -39,16 +39,17 @@
     %	NAME AND ADDRESS SECTION
     %----------------------------------------------------------------------------------------
     
-    \moveleft.5\hoffset\centerline{\huge\bf Ali Gholami} % Your name at the top
+    
+    \moveleft0.7\hoffset\centerline{\Huge\bf Ali Gholami} % Your name at the top
+    \moveleft0.7\hoffset\vbox{\hrule width 6in height 1.5pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
      
-    \moveleft\hoffset\vbox{\hrule width\resumewidth height 1.5pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
-     
-    \moveleft.5\hoffset\centerline{\textsc{Computer Engineering \& Information Technology Department}} % Your address
-    \moveleft.5\hoffset\centerline{\textsc{Amirkabir University of Technology}}
-	\moveleft.5\hoffset\centerline{\url{ceit.aut.ac.ir/~aligholamee}}
- 	\moveleft.5\hoffset\centerline{\url{aligholamee@aut.ac.ir}}
+    \moveleft0.7\hoffset\centerline{\textsc{Computer Engineering \& Information Technology Department}} % Your address
+    \moveleft0.7\hoffset\centerline{\textsc{Amirkabir University of Technology}}
+	\moveleft0.7\hoffset\centerline{\url{https://aligholamee.github.io}}
+ 	\moveleft0.7\hoffset\centerline{\url{aligholami7596@gmail.com}}
  	\vspace{0.1cm}
- 	\moveleft.5\hoffset\centerline{\href{https://stackoverflow.com/users/4723938/aligholamee}{\UrlFont\color{black}\small{[\ \faCodeFork}\ ]}\href{https://www.linkedin.com/in/ali-gholami-987136b5/}{\UrlFont\color{black}\small{[\ \faLinkedin}\ ]}\href{https://github.com/aligholamee}{\UrlFont\color{black}\small{[\ \faGithubAlt}\ ]}}
+ 	\moveleft0.7\hoffset\centerline{\href{https://stackoverflow.com/users/4723938/aligholamee}{\UrlFont\color{darkblue}\small{[\ \faCodeFork}\ ]}\href{https://www.linkedin.com/in/ali-gholami-987136b5/}{\UrlFont\color{darkblue}\small{[\ \faLinkedin}\ ]}\href{https://github.com/aligholamee}{\UrlFont\color{darkblue}\small{[\ \faGithubAlt}\ ]}}
+ 	\moveleft0.7\hoffset\centerline{\tiny\textsc{\underline{Updated on April 27, 2018}}}
     %----------------------------------------------------------------------------------------
         
     \begin{resume}
@@ -60,13 +61,14 @@
     \section{EDUCATION}  
     \textbf{B.S. Computer Engineering} \textsc{@}
 	   \href{http://aut.ac.ir/aut/}{\textsc{Amirkabir University of Technology}}\\
-	   {\UrlFont[Global Rank of 97 in CE] @ USNEWS}\hfill {\UrlFont{\underline{GPA: 3.6/4}}}\\
-	   {\UrlFont[National Rank of 2] @ ARWU}
+	   {\UrlFont[ Global Rank of 165 in CS ]}\hfill {\UrlFont{\underline{GPA: 3.6/4}}}\\
+	   {\UrlFont[ National Center of Excellence in A.I. ]}
  	\vspace{0.1cm}
  	
     \textbf{Mathematics \& Physics Diploma} \textsc{@}
     \href{http://www.kamal.sch.ir/}{\textsc{Kamal Highschool}}\hfill {\UrlFont{\underline{GPA: 19/20}}}
 
+   
 	\section{RESEARCH \\ INTERESTS}
 	\vspace{0.6cm}
 		  	
@@ -87,23 +89,29 @@
 	\textbf{Computer Vision} \textsc{@} \textsc{Udacity}\\
 	\textbf{Deep Learning} \textsc{@} \textsc{Udacity}\\
 	\textbf{cs231n} \textsc{@} \textsc{Stanford University}\\
+	\textbf{OpenMP} \textsc{@} \textsc{Intel}\\
     %----------------------------------------------------------------------------------------
     %	Technology SKILLS SECTION
     %----------------------------------------------------------------------------------------
     \section{RESEARCH \\ EXPERIENCE} 
 
 	\textbf{CEIT} \textsc{@} \textsc{Amirkabir University of Technology}
-	\hfill {Dec 2018 -- Present}\\
+	\hfill {Dec 2017 -- Present}\\
 	\textit{Computer Vision | Pattern Recognition}
 	\vspace{0.15cm}
 	\begin{innerlist}
-		\item Implementation of \textit{AlexNet CNN} architecture using \textit{Tensorflow}.
 		
-		\item Implementation of a \textit{DCGAN} to draw \textit{MNIST} characters using \textit{Tensorflow}.
+		\item Implementation of \textit{AlexNet CNN} architecture using \textit{Tensorflow}.
+		\href{https://github.com/aligholamee/AlexNet-Tensorflow}{\hfill{\UrlFont[code]}}
+		
+		\item Implementation of a \textit{DCGAN} to draw \textit{MNIST} using \textit{Tensorflow}.
+		\href{https://github.com/aligholamee/MNIST-Drawer-DCGAN}{\hfill{\UrlFont[code]}}
 		
 		\item Implementation of a \textit{Variational Autoencoder} 	using \textit{Tensorflow}.
+		\href{https://github.com/aligholamee/MNIST-Drawer-VAE}{\hfill{\UrlFont[code]}}
 		
 		\item Implementation of various \textit{Deep Learning} techniques using \textit{Tensorflow}.
+		\href{https://github.com/aligholamee/notMNIST}{\hfill{\UrlFont[code]}}
 		
 	\end{innerlist}
 
@@ -119,6 +127,7 @@
 			
 			\item \textit{LDA \& QDA -- Bayesian Classification -- Error Bounds} \href{https://github.com/aligholamee/Patterns/raw/master/docs/assignment-2/SPR_9531504_HW2.pdf}{\hfill\UrlFont[docs]}
 
+			\item \textit{MLE \& Bayesian Parameter Estimation -- Kernel Density Estimation} \href{https://github.com/aligholamee/Patterns/raw/master/docs/assignment-3/SPR_9531504_HW3.pdf}{\hfill\UrlFont[docs]}
 		\end{innerlist}
 
         \textbf{Data Mining}\\
@@ -145,21 +154,33 @@
 		
 			\item \textit{Packet Transmission Approaches -- Congestion Control} \href{https://github.com/aligholamee/Compnets/raw/master/docs/assignment-2/compnet_assignment_2_9531504.pdf}{\hfill\UrlFont[docs]}
 
-			\item \textit{Queuing \& Delay Analysis} \href{https://github.com/aligholamee/Compnets/raw/master/docs/assignment-3/compnet_assignment_3_9531504.pdf}{\hfill\UrlFont[docs]}
+			\item \textit{Queuing \& Delay Analysis \& Network Protocol Stack 1} \href{https://github.com/aligholamee/Compnets/raw/master/docs/assignment-3/compnet_assignment_3_9531504.pdf}{\hfill\UrlFont[docs]}
 			
-			\item \textit{Queuing \& Delay Analysis -- Network Protocols} \href{https://github.com/aligholamee/Compnets/raw/master/docs/assignment-4/compnet_assignment_4_9531504.pdf}{\hfill\UrlFont[docs]}
+			\item \textit{Queuing \& Delay Analysis \& Network Protocol Stack 2} \href{https://github.com/aligholamee/Compnets/raw/master/docs/assignment-4/compnet_assignment_4_9531504.pdf}{\hfill\UrlFont[docs]}
+			
+			\item \textit{Multiplexing \& Multiple Access Medium -- IETF} \href{https://github.com/aligholamee/Compnets/raw/master/docs/assignment-5/compnet_assignment_5_9531504.pdf}{\hfill\UrlFont[docs]}
+			
+			\item \textit{Application Layer Protocols; HTTP -- FTP -- SMTP -- CDN -- DNS} \href{https://github.com/aligholamee/Compnets/raw/master/docs/assignment-6/compnet_assignment_6_9531504.pdf}{\hfill\UrlFont[docs]}
 		\end{innerlist}
 	
         \textbf{Multi-core Programming}\\
 			\textit{Advisor: Prof. Mahmoud Momtazpour}
 			\begin{innerlist}
 				\item \textit{Parallel Architectures -- Speedup Metrics} \href{https://github.com/aligholamee/Parallax/raw/master/docs/assignment-1/MCP_9531504_HW1.pdf}{\hfill\UrlFont[docs]}
-
-				\item \textit{OpenMP -- Parallelization of Matrix Addition/Multiplication} \href{https://github.com/aligholamee/Parallax/raw/master/docs/assignment-2/MCP_9531504_HW2.pdf}{\hfill\UrlFont[docs]}
 				
-				\item \textit{OpenMP -- Parallelization of Merge-sort} \href{https://github.com/aligholamee/Parallax/raw/master/docs/assignment-3/MCP_9531504_HW3.pdf}{\hfill\UrlFont[docs]}
+				\item \textit{OpenMP | Parallelization of Matrix Computations} \href{https://github.com/aligholamee/Parallax/raw/master/docs/assignment-2/MCP_9531504_HW2.pdf}{\hfill\UrlFont[docs]}
+				
+				\item \textit{OpenMP | Parallelization of Sort Algorithms} \href{https://github.com/aligholamee/Parallax/raw/master/docs/assignment-3/MCP_9531504_HW3.pdf}{\hfill\UrlFont[docs]}
+
 			\end{innerlist}
-	
+
+        \textbf{Engineering Ethics}\\
+		\textit{Advisor: Prof. Ali Dizani}
+		\begin{innerlist}
+			\item \textit{A Deep Analysis of Ethical Dilemmas in Computer Engineering.} \href{https://www.dropbox.com/s/hysshvi811nqwm4/Release_1_0_0.pdf?dl=0}{\hfill\UrlFont[docs]}
+			
+		\end{innerlist}
+		
     %----------------------------------------------------------------------------------------
     %	WORK EXPERIENCE
     %---------------------------------------------------------------------------------------- 
@@ -192,39 +213,14 @@
    \hfill {Sep -- Dec 2017}\\
    \textit{Microprocessors \& Assembly Programming}\\
    \textit{Advisor: Prof. Mahdi Homayounpour}
+   \href{https://github.com/aligholamee/Microprocessors}{\hfill\UrlFont[Resources]}
    
    \textbf{T.A.} \textsc{@}
    \textsc{ENG} \textsc{@} \textsc{Kharazmi University of Tehran}
    \hfill {Sep -- Dec 2015}\\
    \textit{Foundations of Programming in C++}\\
    \textit{Advisor: Dr. Azadeh Mansouri}
-
-
-    %----------------------------------------------------------------------------------------
-	%	TALKS
-	%----------------------------------------------------------------------------------------
-	\section{TALKS} 
-	\textbf{Machine Learning at Scale}
-	\hfill {Oct 2017}
-		\vspace{0.15cm}
-	\begin{innerlist}
-		\item Based on the paper \textit{Rules of Machine Learning} by \href{http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf}{Dr. Martin Zinkevich}.
-	\end{innerlist}
-
-	\textbf{Energy Awareness}
-	\hfill {July 2017}
-		\vspace{0.15cm}
-	\begin{innerlist}
-		\item Based on the paper \textit{Energy-aware adaptation for mobile applications} by \href{http://www-cgi.cs.cmu.edu/afs/cs.cmu.edu/Web/People/odyssey/docdir/s17.pdf5}{Dr. Jason Flinn}.
-	\end{innerlist}
-
-	\textbf{Metasploit Framework}
-	\hfill {May 2017}
-		\vspace{0.15cm}
-	\begin{innerlist}
-		\item Introduction to \textit{Metasploit Framework} \& \textit{Social Engineering} techniques.
-	\end{innerlist}
-
+   \href{https://github.com/aligholamee/Foundations-of-Programming}{\hfill\UrlFont[Resources]}
 
     %----------------------------------------------------------------------------------------
 	%	HONORS
@@ -235,14 +231,50 @@
 	among all\hfill {Aug 2018}\\ bachelor students at Computer Engineering 
 	Department,\\ Kharazmi University of Tehran.
 	
+	\textbf{Member of Executive Team}
+	at the 17'th \href{https://icpc.baylor.edu/regionals/finder/tehran-2017}{International Collegiate} \hfill {Nov 2017}\\  \href{https://icpc.baylor.edu/regionals/finder/tehran-2017}{Programming Contest} held at the \href{http://ceit.aut.ac.ir}{Amirkabir University of Technology}.
+	
+	\textbf{Participated}
+	in the 4'th national programming contest contest held \hfill {Sep 2017}\\at the \href{http://sharif.ir}{Sharif University of Technology} as a member of \textit{Morph} team.
+
 	\textbf{Ranked top 3}
-	among all bachelor students at Computer Engieering \hfill {July 2016}\\ Department, Kharazmi University of Tehran.
+	among all bachelor students at Computer Engieering \hfill {July 2016}\\ Department, \href{http://khu.ac.ir}{Kharazmi University of Tehran}.
+	
+	\textbf{Participated}
+	in the \href{http://avatech.ir}{Avatech}'s Educational Startup Weekend held \hfill {Jun 2015}\\at the \href{http://ut.ac.ir}{University of Tehran}, as a member of \textit{3-mim} team.
 	
 	\textbf{Ranked top 0.006}
 	in the Nationwide University Entrance Exam \hfill {July 2014}\\ among all students in 
 	Mathemathics and physics (approximately 250,000).
+	
+	\textbf{ٍElected}
+	as the \textbf{tidiest} student at the campus of international \hfill {Aug 2011}\\ summer school, \textit{\href{https://www.monterosa.ch/}{Institute Monte Rosa}}, Montreux, Switzerland. 
     \end{resume}
 
+    %----------------------------------------------------------------------------------------
+%	TALKS
+%----------------------------------------------------------------------------------------
+\section{TALKS} 
+\textbf{Machine Learning at Scale}
+\hfill {Oct 2017}
+\vspace{0.15cm}
+\begin{innerlist}
+	\item Based on the paper \textit{Rules of Machine Learning} by \href{http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf}{Dr. Martin Zinkevich}.
+\end{innerlist}
+
+\textbf{Energy Awareness}
+\hfill {July 2017}
+\vspace{0.15cm}
+\begin{innerlist}
+	\item Based on the paper \textit{Energy-aware adaptation for mobile applications} by \href{http://www-cgi.cs.cmu.edu/afs/cs.cmu.edu/Web/People/odyssey/docdir/s17.pdf5}{Dr. Jason Flinn}.
+\end{innerlist}
+
+\textbf{Metasploit Framework}
+\hfill {May 2017}
+\vspace{0.15cm}
+\begin{innerlist}
+	\item Introduction to \textit{Metasploit Framework} \& \textit{Social Engineering} techniques.
+\end{innerlist}
 
     %----------------------------------------------------------------------------------------
 	%	COMPETENCES
@@ -253,10 +285,10 @@
 	Persian (\emph{native}), English (\emph{advanced working proficiency})
 	
 	\textbf{Programming}
-	\textit{Python, VHDL, C/C++, Java, ARM Assembly, AVR Assembly, Javascript, HTML/CSS, \LaTeX, Racket, ML, Scheme}.
+	\textit{Python, VHDL, C/C++, Java,  Assembly, AVR Assembly, Javascript,\\ HTML/CSS, \LaTeX, Racket, ML, Scheme}.
 	
 	\textbf{Tools \& Platforms}
-	\textit{Tensorflow, scikit-learn, Numpy, Pandas, Matplotlib, Weka, Arduino, ARM, AVR, CodeVision, Xillinx Vivado, ModelSim, Atmel Studio, Cadence PSpice, Keil, Dr. Racket, MongoDB, PostgreSQL, MySQL, Visual Studio, TeXstudio}.
+	\textit{Intel Parallel Studio, OpenMP, Tensorflow, scikit-learn, Numpy, Pandas, Matplotlib, Weka, Arduino, ARM, AVR, CodeVision, Xillinx Vivado, ModelSim, Atmel Studio, Cadence PSpice, Keil, Dr. Racket, MongoDB, PostgreSQL, MySQL, Visual Studio, TeXstudio}.
 
 
     %----------------------------------------------------------------------------------------
@@ -264,29 +296,50 @@
 	%----------------------------------------------------------------------------------------
 \section{NOTABLE \\ PROJECTS}
 
+	\textbf{KDEPlot}, 
+\textit{Density Estimation}
+\begin{innerlist}
+	\item Implementation of 1-D and 2-D Kernel Density Estimation Methods in Python using Numpy and Matplotlib Only.
+	\hfill{\UrlFont\href{https://github.com/aligholamee/KDEPlot}{[code]}}
+\end{innerlist}
+
+	\textbf{KNNCC}, 
+	\textit{Image Classification}
+	\begin{innerlist}
+		\item Implementation of a K-Nearest Neighbour \textit{CIFAR-10} Classifier in Python.
+		\hfill{\UrlFont\href{https://github.com/aligholamee/KNNCC}{[code]}}
+	\end{innerlist}
+
+\textbf{Paralab}, 
+\textit{Parallel Processing}
+\begin{innerlist}
+	\item Implementation of frequent parallel problems using OpenMP and Intel Parallel Studio in C.\\ \phantom{km}
+	\hfill{\UrlFont\href{https://github.com/aligholamee/ParaLab/tree/master}{[code]}}
+\end{innerlist}
+
 \textbf{Annealing}, 
 \textit{Data Cleaning \& Preprocessing}
 \begin{innerlist}
-	\item Preprocessing and cleaning the dataset of annealing. Reached 98\% accuracy.\\ \phantom{km}
+	\item Preprocessing and training the dataset of annealing. Reached 98\% accuracy with a decision tree classifier.\\ \phantom{km}
 	\hfill{\UrlFont{\href{https://github.com/aligholamee/Datadigger/raw/master/docs/assignment-2/report/DM_9531504_HW2.pdf}{[docs]}\href{https://github.com/aligholamee/Datadigger/tree/master/docs/assignment-2/src}{[code]}}}
 \end{innerlist}
 
 \textbf{Titanic}, 
 \textit{Data Science \& Feature Engineering}
 \begin{innerlist}
-	\item Prediction of Titanic survivals as a part of Kaggle competition. Reached an Accuracy of 83\% and Recall of 76\%. \href{https://github.com/aligholamee/Titanic}{\hfill{\UrlFont[code]}}
+	\item Prediction of Titanic survivals as a part of Kaggle competition. Reached an\\ Accuracy of 83\% and Recall of 76\%. \href{https://github.com/aligholamee/Titanic}{\hfill{\UrlFont[code]}}
 \end{innerlist}
 
 \textbf{MNIST-Drawer}, 
 \textit{Variational Autoencoder}
 \begin{innerlist}
-	\item Implementation of a \textit{Variational Autoencoder} to draw \textit{MNIST} dataset characters using \textit{Tensorflow}. \href{https://github.com/aligholamee/MNIST-Drawer}{\hfill{\UrlFont[code]}}
+	\item Implementation of a \textit{Variational Autoencoder} to draw \textit{MNIST} dataset characters\\ using \textit{Tensorflow}. \href{https://github.com/aligholamee/MNIST-Drawer}{\hfill{\UrlFont[code]}}
 \end{innerlist}
 
 \textbf{notMNIST}, 
 {\textit{Convolutional Neural Network}
 	\begin{innerlist}
-		\item Implementation of multiple machine learning classifiers and regularization techniques on the \textit{notMNIST} dataset using \textit{Tensorflow}. \href{https://github.com/aligholamee/notMNIST}{\hfill{\UrlFont[code]}}
+		\item Implementation of multiple machine learning classifiers and regularization techniques\\ on the \textit{notMNIST} dataset using \textit{Tensorflow}. \href{https://github.com/aligholamee/notMNIST}{\hfill{\UrlFont[code]}}
 	\end{innerlist}
 
 	\textbf{Freeman}, 
@@ -316,7 +369,7 @@
 		\textbf{ARMHE}, 
 		\textit{Advanced RISC Machine Programming}
 		\begin{innerlist}
-			\item Implementation of the \textit{Histogram Equalization} algorithm on the \textit{STMF32F407VGT6} with \textit{ARMv4T} architecture using \textit{ARM Assembly}. \href{https://github.com/aligholamee/ARMHE}{\hfill{\UrlFont[code]}}
+			\item Implementation of the \textit{Histogram Equalization} algorithm on the \textit{STMF32F407VGT6}\\ with \textit{ARMv4T} architecture using \textit{ARM Assembly}. \href{https://github.com/aligholamee/ARMHE}{\hfill{\UrlFont[code]}}
 		\end{innerlist}
 
 		\textbf{Cinder}, 
@@ -325,16 +378,26 @@
 				\item Implementation of a basic \textit{Operating System} with \textit{C}. \href{https://github.com/aligholamee/CinderOS}{\hfill{\UrlFont[code]}}
 			\end{innerlist}
 
+	
+			\textbf{Chronicle}, 
+	{\textit{Compiler Design}
+		\begin{innerlist}
+					\item Implementation of a \textit{lexical analyzer}, \textit{syntax analyzer} and a \textit{partial code generator} using \textit{Lex \& Yacc} in \textit{Java}. \href{https://github.com/aligholamee/Chronicle}{\hfill{\UrlFont[code]}}
+		\end{innerlist}
+
+					
+					
+					
 			\textbf{Sockets}, 
 			\textit{Socket Programming}
 			\begin{innerlist}
-				\item Implementation of various types of \textit{Sockets} in \textit{Interprocess Communication} \& \textit{TCP/IP Protocol} with \textit{C}. \href{https://github.com/aligholamee/Socket-Programming-Package}{\hfill{\UrlFont[code]}}
+				\item Implementation of various types of \textit{Sockets} in \textit{Interprocess Communication} \& \textit{TCP/IP\\ Protocol} with \textit{C}. \href{https://github.com/aligholamee/Socket-Programming-Package}{\hfill{\UrlFont[code]}}
 			\end{innerlist}
 
 			\textbf{Toofan}, 
 			\textit{Android Application Development}
 			\begin{innerlist}
-				\item Implementation of a \textit{Weather Forecast Application} on the \textit{Android} platform using \textit{Java} \& \textit{Android Studio}. \href{https://github.com/aligholamee/Toofan}{\hfill{\UrlFont[code]}}
+				\item Implementation of a \textit{Weather Forecast Application} on the \textit{Android} platform using\\ \textit{Java} \& \textit{Android Studio}. \href{https://github.com/aligholamee/Toofan}{\hfill{\UrlFont[code]}}
 			\end{innerlist}
 
 			\textbf{Huffman}, 
