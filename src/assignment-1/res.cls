@@ -287,8 +287,8 @@
 		     \sectionwidth=#1
 		     \textwidth=\resumewidth
 		     \advance\textwidth-\sectionwidth
-		     \hsize=\textwidth
-		     \hoffset=\sectionwidth
+		     \hsize=\textwidth 
+		     \hoffset=0.95in
 }
 
 
