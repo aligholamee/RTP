@@ -35,13 +35,13 @@
 % Change the page layout if you need to
 \geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1cm,bottom=1cm}
 
+
 % Change the font if you want to.
 
 % If using pdflatex:
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[default]{lato}
-
 % If using xelatex or lualatex:
 % \setmainfont{Lato}
 
@@ -137,9 +137,10 @@
 
 \cvevent{Microprocessors and Assembly Language}{Supervisor: Prof. Mohammad Mahdi Homayounpour}{Sep 1017 -- Dec 2017}{Tehran, IR}
 
+\divider
+
 \cvevent{Foundations of Programming}{Supervisor: Prof. Azadeh Mansouri}{Sep 2015 -- Dec 2015}{Tehran, IR}
 
-\divider
 
 % \divider
 
@@ -155,16 +156,13 @@
 \cvsection[page2sidebar]{Publications}
 
 \nocite{*}
-
-\printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
-
-\divider
-
-\printbibliography[heading=pubtype,title={\printinfo{\faFileTextO}{Journal Articles}}, type=article]
+\printbibliography[heading=pubtype, title={\printinfo{\faPaperclip}{Technical Reports}}, subtype=techreport]
 
 \divider
 
-\printbibliography[heading=pubtype,title={\printinfo{\faGroup}{Conference Proceedings}},type=inproceedings]
+\printbibliography[heading=pubtype, title={\printinfo{\faPencil}{Coursework Reports}}, type=manual]
+
+
 
 %% If the NEXT page doesn't start with a \cvsection but you'd
 %% still like to add a sidebar, then use this command on THIS
