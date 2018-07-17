@@ -45,7 +45,7 @@
 \colorlet{body}{black!80!white}
 \newcommand{\itemmarker}{{\small\textbullet}}
 \newcommand{\ratingmarker}{\faCircle}
-
+\usepackage[inline]{enumitem}
 \RequirePackage{tikz}
 \usetikzlibrary{arrows}
 \RequirePackage[skins]{tcolorbox}
@@ -58,7 +58,10 @@
 \RequirePackage{multirow,tabularx}
 \RequirePackage{changepage}
 % \RequirePackage{marginfix}
-
+    \setlength{\textwidth}{6in} % Text width of the document
+    \newlist{innerlist}{itemize}{3}
+    \setlist[innerlist]{label=\enskip\textbullet,leftmargin=*,parsep=0pt,itemsep=0pt,topsep=0pt,partopsep=0pt}
+    
 \setlength{\parindent}{0pt}
 \newcommand{\divider}{\textcolor{body!30}{\hdashrule{\linewidth}{0.6pt}{0.5ex}}\medskip}
 
@@ -216,7 +219,7 @@
   \textcolor{emphasis}{\textbf{#1}}\par
   \begin{description}[font=\color{accent},style=multiline,leftmargin=1.25em]
   \item[\emailsymbol] #2
-  \item[\small\mailsymbol] #3
+  \item[\small\phonesymbol] #3
   \end{description}
 %   \medskip
 }
@@ -224,6 +227,7 @@
 \newenvironment{cvcolumn}[1]{\begin{minipage}[t]{#1}\raggedright}{\end{minipage}}
 
 \RequirePackage[backend=biber,style=authoryear,sorting=ydnt, dashed=false]{biblatex}
+
 %% For removing numbering entirely when using a numeric style
 % \setlength{\bibhang}{1em}
 % \DeclareFieldFormat{labelnumberwidth}{\makebox[\bibhang][l]{\itemmarker}}

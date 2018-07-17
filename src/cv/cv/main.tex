@@ -40,7 +40,9 @@
 
 % If using pdflatex:
 \usepackage[utf8]{inputenc}
+\usepackage{multicol}
 \usepackage[T1]{fontenc}
+\usepackage{url}
 \usepackage[default]{lato}
 % If using xelatex or lualatex:
 % \setmainfont{Lato}
@@ -69,11 +71,14 @@
 \personalinfo{%
   % Not all of these are required!
   % You can add your own with \printinfo{symbol}{detail}
-  \email{aligholamee@outlook.com}
 %   \phone{000-00-0000}
-  \location{Tehran, IR}
-  \homepage{aligholamee.github.io}
-  \twitter{@aligholamee}
+\github{\url{github.com/aligholamee}}
+\hspace{1cm}
+    \email{{\UrlFont aligholamee@aut.ac.ir}}\\
+
+   \homepage{\url{https://aligholamee.github.io}}
+    \email{{\UrlFont aligholamee@outlook.com}}\\
+
 %   \github{github.com/mmayer} % I'm just making this up though.
 %   \orcid{orcid.org/0000-0000-0000-0000} % Obviously making this up too. If you want to use this field (and also other academicons symbols), add "academicons" option to \documentclass{altacv}
 }
@@ -89,11 +94,15 @@
 %% \cvsection title in the "main" bar.
 \cvsection[page1sidebar]{Education}
 
-\cvevent{B.Sc.\ in Computer Engineering}{Amirkabir University of Technology}{Oct 2014 -- Dec 2018}{Tehran, IR}
-\begin{itemize}
-	\item \textbf{Cumulative GPA} -- 17.54 / 20
-\end{itemize}
+\cvevent{B.Sc.\ in Computer Engineering}{Amirkabir University of Technology {\UrlFont{(AUT)}}}{Dec 2016 -- Dec 2018}{Tehran, IR}
 
+\cvachievement{\faCheck}{\textbf{Qualifications}}{
+\begin{itemize}
+	\item Cumulative GPA: 3.54 / 4
+    \item Last 60 Units GPA: 3.68 / 4
+    \item Fully admitted to Amirkabir University of Technology due to outstanding performance at Kharazmi University of Tehran.
+\end{itemize}
+}
 
 \divider
 
@@ -101,6 +110,18 @@
 \begin{itemize}
 	\item \textbf{Cumulative GPA} -- 19 / 20
 \end{itemize}
+
+\cvsection{Research Interests}
+\begin{multicols}{2}
+\begin{itemize}
+    \item Visual Question Answering
+    \item Image Segmentation
+    \item Image Captioning
+    \item Image Style Transfer
+    \item Generative Models
+  	\item Zero-shot Learning
+\end{itemize}
+\end{multicols}
 
 \cvsection{Research Experience}
 
@@ -112,8 +133,6 @@
 \item Inspection of statistical methods in face recognition.
 \item Acceleration of image processing algorithms with \textit{CUDA}.
 \end{itemize}
-
-\divider
 
 \cvsection{Work Experience}
 
@@ -128,20 +147,8 @@
 \cvevent{Fandogh}{Mobile Developer}{Jun 2017 --  Sep 2017}{Tehran, IR}
 \begin{itemize}
 	\item Development of a poetry application with \textit{React Native}.
-	\item Coding of a pure android weather forecast application.
+	\item Design and implementation of a pure android weather forecast application.
 \end{itemize}
-
-\divider
-
-\cvsection{Teaching Experience}
-
-\cvevent{Microprocessors and Assembly Language}{Supervisor: Prof. Mohammad Mahdi Homayounpour}{Sep 1017 -- Dec 2017}{Tehran, IR}
-
-\divider
-
-\cvevent{Foundations of Programming}{Supervisor: Prof. Azadeh Mansouri}{Sep 2015 -- Dec 2015}{Tehran, IR}
-
-
 % \divider
 
 % \cvevent{Product Engineer}{Google}{23 June 1999 -- 2001}{Palo Alto, CA}
@@ -153,7 +160,17 @@
 
 \clearpage
 
-\cvsection[page2sidebar]{Publications}
+\cvsection[page2sidebar]{Teaching Experience}
+
+\cvevent{Microprocessors and Assembly Language}{Supervisor: Prof. Mohammad Mahdi Homayounpour}{Sep 1017 -- Dec 2017}{Tehran, IR}
+
+\divider
+
+\cvevent{Foundations of Programming}{Supervisor: Prof. Azadeh Mansouri}{Sep 2015 -- Dec 2015}{Tehran, IR}
+
+
+
+\cvsection{Publications}
 
 \nocite{*}
 \printbibliography[heading=pubtype, title={\printinfo{\faPaperclip}{Technical Reports}}, subtype=techreport]
