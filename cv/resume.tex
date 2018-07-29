@@ -1,0 +1,291 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% Website: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{http://sourabhbajaj.com/}{\Large Ali Gholami}} & Email : \href{mailto:aligholamee@outlook.com}{aligholamee@outlook.com}\\
+  \href{https://aligholamee.github.io}{https://aligholamee.github.io} & Mobile : +98-939-619-1804 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Amirkabir University of Technology}{Tehran, IR}
+      {Bachelor of Science in Software Engineering;  \textbf{GPA: 17.55/20}}{Aug. 2014 -- Dec. 2018}
+    \resumeSubheading
+      {Kamal High-school}{Tehran, IR}
+      {Diploma in Physics and Mathematics;  \textbf{GPA: 19/20}}{Aug. 2012 -- Jan. 2014}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Research Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Research Assistant}{Tehran, IR}
+      {Bio-intelligence Center, Sharif University of Technology}{July 2018 - Present}
+      \resumeItemListStart
+        \resumeItem{Bio-medical Image Analysis}
+          {Developed image processing algorithms and deep learning architectures to extract the sarcoidosis patterns in medical lung scans.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+    {Freelance Researcher}{Tehran, IR}
+    {Faculty of Computer Engineering, Amirkabir University of Technology}{July 2018 - Present}
+    \resumeItemListStart
+    \resumeItem{Visual Question Answering \& Image Captioning}
+    {Explored state of the art \textit{CNN} and \textit{RNN} architectures in the task of \textit{VQA} and \textit{IC}.}
+    \resumeItem{Statistical Face Recognition}
+    {Developed a real-time face recognition system with \textit{Tensorflow} and \textit{OpenCV} frameworks which implemented the maximum likelihood approximate nearest neighbor method for rapid selection of the reference images in large-scale databases.}
+    \resumeItem{Image Template Matching with CUDA}
+    {Designed and implemented a fast naive image template matching algorithm confirming the best practices in parallel processing using \textit{CUDA} technology.}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\section{Work Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Web Development Intern}{Tehran, IR}
+{ArvanCloud}{Jun 2017 - Sep 2017}
+\resumeItemListStart
+	\resumeItem{Smart Lock System}
+	{Developed an administrative panel for an smart lock project using \textit{PHP} and \textit{Laravel}.}
+	\resumeItem{Coding Practices}
+	{Practiced the best coding styles in Javascript, especially Node.js and React.js.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Mobile Development Intern}{Tehran, IR}
+{Fandogh}{Jun 2017 - Sep 2017}
+\resumeItemListStart
+\resumeItem{Toofan Weather}
+{Designed and implemented a weather forecast application with \textit{Java SE} and \textit{Android Studio}.}
+\resumeItem{Ranjoor Poetry}
+{Developed a poetry application with \textit{React Native}.}
+\resumeItemListEnd
+
+
+
+\resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Teaching Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Microprocessors and Assembly Language}{Tehran, IR}
+{Supervisor: Prof. Mohammad Mahdi Homayounpour}{Sep 2017 - Dec 2017}
+
+\resumeSubheading
+{Foundations of Programming}{Tehran, IR}
+{Supervisor: Supervisor: Prof. Azadeh Mansouri}{Sep 2015 - Dec 2015}
+
+
+\resumeSubHeadingListEnd
+
+
+%
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+ \resumeSubHeadingListStart
+   \item{
+     \textbf{Languages}{: \textit{Python, C/C++, Java SE, VHDL, ARM Assembly, AVR Assembly, Racket, ML, Scheme, HTML/CSS, Javascript, Latex.}}
+     \hfill
+   }
+   \item{
+   	\textbf{Frameworks and Environments}{: \textit{Tensorflow, Numpy, Matplotlib, Pandas, RapidMiner, Weka, OpenMP, CUDA, React Native, Node.js, Laravel.}}
+   	\hfill
+   }
+   \item{
+   	\textbf{Databases}{: \textit{MongoDB, MySQL, PostgreSQL.}}
+   	\hfill
+   }
+ \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+
+%-----------EXPERIENCE-----------------
+\section{Selected Honors}
+ \resumeSubHeadingListStart
+ \vspace{0.1cm}
+  \item{
+  	\textbf{Full Admission} to 
+  	\textbf{Amirkabir University of Technology}
+  	due to outstanding\hfill {Aug 2018}\\ performance at Kharazmi University of Tehran and Amirkabir University of Technology.
+  }
+ 
+ \item{
+	\textbf{Ranked top 3} among most active \textbf{GitHub} developers in Iran.\hfill{June 2018}
+ }
+ \item{
+	\textbf{Member of Executive Team}
+	at the 17'th \href{https://icpc.baylor.edu/regionals/finder/tehran-2017}{International Collegiate} \hfill {Nov 2017}\\  \href{https://icpc.baylor.edu/regionals/finder/tehran-2017}{Programming Contest} held at the \href{http://ceit.aut.ac.ir}{Amirkabir University of Technology}.
+
+ }
+ 
+ \item{
+	\textbf{Ranked top 3}
+	among all bachelor students at Computer Engieering \hfill {July 2016}\\ Department, \href{http://khu.ac.ir}{Kharazmi University of Tehran}.
+ }
+ 
+ \item{
+ 	\textbf{Ranked top 0.6\%}
+ 	in the \textbf{Nationwide} University Entrance Exam \hfill {July 2014}\\ among all students (approximately \textbf{250,000}) in 
+ 	mathematics and physics.
+ 		
+ }
+ 
+ \item{
+	\textbf{ٍElected}
+	as the \textbf{tidiest} student at the campus of international \hfill {Aug 2011}\\ summer school, \textit{\href{https://www.monterosa.ch/}{Institute Monte Rosa}}, Montreux, \textbf{Switzerland}. 
+ 	
+ }
+ \resumeSubHeadingListEnd
+	
+
+\section{Selected Courses}
+\begin{center}
+	\renewcommand{\arraystretch}{1}
+	\setlength{\tabcolsep}{40pt}
+	\begin{tabular}{ c c }
+		\textbf{Statistical Pattern Recognition}: \hfill{18/20} & \textbf{Machine Learning}: \hfill{19.5/20} \\ 
+		\textbf{Foundations of Data Mining}: \hfill{18.7/20} & \textbf{Database Design}: \hfill{20/20} \\  
+		\textbf{Data Structures}: \hfill{18.5/20} &\textbf {Algorithm Design}: \hfill{19.31/20}\\
+		\textbf{Engineering Statistics}: \hfill{18.5/20} & \textbf{Engineering Mathematics}: \hfill{19/20}
+	\end{tabular}
+\end{center}
+
+\section{Selected Technical Reports}
+
+ \resumeSubHeadingListStart
+ \vspace{0.1cm}
+   \item{
+   	A. Gholami, "Linear Discriminant Functions, Support Vector
+   	Machine and Unsupervised Learning," Faculty of Computer Engineering, Amirkabir University of Technology, Tehran, Iran, Statistical Pattern Recognition Coursework Report, Jun. 2018.
+   }
+   
+  \item{
+  	A. Gholami, "Dimensionality reduction strategies; Principal
+  	Component Analysis, Fisher Linear Discriminant and Feature Subset
+  	Selection," Faculty of Computer Engineering, Amirkabir University of Technology, Tehran, Iran, Statistical Pattern Recognition Coursework Report, Feb. 2018.
+  	
+  }
+    
+        \item{
+        	A. Gholami, "Parametric and Non-parametric methods; Maximum Likelihood,
+        	Bayesian Parameter Estimation and Kernel Density Estimation," Faculty of Computer Engineering, Amirkabir University of Technology, Tehran, Iran, Statistical Pattern Recognition Coursework Report, Jan. 2018.
+        }
+        
+        \item{
+        	A. Gholami, "Analysis of Bayesian Decision Boundaries, Risk
+        	Minimization and Bayes Error Bounds," Faculty of Computer Engineering, Amirkabir University of Technology, Tehran, Iran, Statistical Pattern Recognition Coursework Report, Dec. 2017.
+        }
+ 
+	 \item{More available on \url{https://aligholamee.github.io/publications}}
+  \resumeSubHeadingListEnd
+  
+ \section{Referees}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Prof. Mohammad Rahmati}{}
+{Email: rahmati@aut.ac.ir}{}
+
+\resumeSubheading
+{Prof. Mohammad Mehdi Homayounpour}{}
+{Email: homayoun@aut.ac.ir}{}
+
+\resumeSubheading
+{Prof. Mahmoud Momtazopur}{}
+{Email: momtazpour@aut.ac.ir}{}
+
+\resumeSubheading
+{Prof. Mehdi Rasi}{}
+{Email: rasti@aut.ac.ir}{}
+
+
+\resumeSubHeadingListEnd
+
+\end{document}
+
+\grid
