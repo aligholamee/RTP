@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.9.12)  17 SEP 2018 10:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.9.12)  19 SEP 2018 23:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -271,21 +271,21 @@ Overfull \hbox (39.80486pt too wide) in paragraph at lines 3--21
 []$[]$ $[]$ 
  []
 
-) (./edexperience.tex) (./adexperience.tex) (./grants.tex [1
+) (./edexperience.tex) (./adexperience.tex [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./plang.tex) (./teaching
-.tex)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./grants.tex) (./plang.t
+ex) (./teaching.tex)
 (./courses.tex
 Overfull \hbox (15.73102pt too wide) in paragraph at lines 6--15
  [] 
  []
 
-) (./eng.tex) (./pubs.tex
+) (./eng.tex [2]) (./pubs.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
 
-[2]) (./proj.tex) (./refs.tex [3])
+) (./proj.tex [3]) (./refs.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 73.
  [4]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
@@ -296,11 +296,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
 Here is how much of TeX's memory you used:
  5085 strings out of 492982
  74831 string characters out of 6134896
- 162106 words of memory out of 5000000
+ 163106 words of memory out of 5000000
  8602 multiletter control sequences out of 15000+600000
  6716 words of font info for 24 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,11n,43p,318b,362s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,12n,43p,318b,383s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/te
@@ -310,7 +310,7 @@ dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmtt10.pfb>
-Output written on cv.pdf (4 pages, 135650 bytes).
+Output written on cv.pdf (4 pages, 136222 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream
